@@ -1,6 +1,5 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
-const { check, validationResult } = require('express-validator')
 
 //creating userSchema
 const UserSchema = new Schema({
@@ -12,8 +11,7 @@ const UserSchema = new Schema({
     email : {
         required : true,
         type : String,
-        unique : true,
-        isEmail: true
+        unique : true
     },
     dob : {
         required : true,
