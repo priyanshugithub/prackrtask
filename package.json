@@ -10,7 +10,7 @@
     "debug": "~2.6.9",
     "express": "~4.16.0",
     "express-validator": "^6.1.1",
-    "mongoose": "^5.3.16",
+    "mongoose": "^5.7.5",
     "morgan": "^1.9.1",
     "nodemailer": "^4.7.0"
   },
